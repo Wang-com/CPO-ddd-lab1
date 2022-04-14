@@ -52,7 +52,7 @@ CPO lab1
 ```         
 ## Changelog   
    **4/14/2022**   
-        Wang Qihang upload mutable.py
+        Wang Qihang upload mutable.py  
    **4/14/2022**   
         Wang Zehao upload test_mutable.py  
 ## Design notes  
@@ -62,7 +62,7 @@ CPO lab1
    **Advantages**  
         Support automated testing
         Secondary development is convenient
-        Organize test cases together by class
+        Organize test cases together by class  
    **Disadvantages**  
         Must be written in TestCase subclass
         Must write test method
