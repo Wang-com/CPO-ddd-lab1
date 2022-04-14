@@ -1,14 +1,14 @@
 # CPO-ddd-lab1  
 CPO lab1  
 ## group name and list of group members  
-    group name:ddd  
+   **group name:ddd**  
     group member :  
-    Wang Qihang:  
-      * id:212320003  
-      * email: Wqhlw@hdu.edu.cn  
-    Wang zehao:  
-      * id:212320005  
-      * email: 15029930122@163.com  
+   **Wang Qihang:**  
+       id:212320003  
+       email: Wqhlw@hdu.edu.cn  
+   **Wang zehao:**    
+       id:212320005  
+       email: 15029930122@163.com  
 ## Variant 4  
   ### Set based on hash-map, separate chaining  
     You can use the built-in list for storing buckets and a bucket itself  
@@ -51,24 +51,24 @@ CPO lab1
          def mconcat(self, a, b):   
 ```         
 ## Changelog   
-   *  4/14/2022
+   **4/14/2022**   
         Wang Qihang upload mutable.py
-   *  4/14/2022
+   **4/14/2022**   
         Wang Zehao upload test_mutable.py  
 ## Design notes  
 ### Implementation restrictions
     The length of the hash table is fixed  
 ### Advantages and disadvantages of unittest  
-    **Advantages**  
+   **Advantages**  
         Support automated testing
         Secondary development is convenient
         Organize test cases together by class
-    **Disadvantages**  
+   **Disadvantages**  
         Must be written in TestCase subclass
         Must write test method
         Difficult to expand
 ### Advantages and disadvantages of PBT tests
-    **Advantages**  
+   **Advantages**  
         Check with automatically generated input data to ensure enough test cases
         Allows developers to increase test coverage and effectively save time
    **Disadvantages**  
