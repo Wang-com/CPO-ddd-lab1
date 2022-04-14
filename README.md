@@ -70,6 +70,6 @@ CPO lab1
 ### Advantages and disadvantages of PBT tests
    **Advantages**  
         Check with automatically generated input data to ensure enough test cases
-        Allows developers to increase test coverage and effectively save time
+        Allows developers to increase test coverage and effectively save time  
    **Disadvantages**  
         Not covering all examples
