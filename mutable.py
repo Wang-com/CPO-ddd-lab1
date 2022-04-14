@@ -168,3 +168,10 @@ class HashMap(object):
             value = b.get(key)
             a.add(key, value)
         return a
+
+    # 9.iteration
+    def __iter__(self):
+        list = []
+        for key in self.keyList:
+            list.append(Node(key, self.get(key)))
+        return iter(list)

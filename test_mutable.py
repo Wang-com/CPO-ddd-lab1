@@ -111,7 +111,17 @@ class TestHashmapMethods(unittest.TestCase):
         hashmap.hashmap_from_dict(dict1)
         self.assertEqual(hashmap.reduce(lambda a, b: a * b, 1), 180)
 
-
+    # 9.iteration
+    def test_iter(self):
+        x = {1, 2, 3, 4}
+        hashmap = HashMap()
+        hashmap.hashmap_from_list(x)
+        tmp = {}
+        for e in hashmap:
+            tmp[e.key] = e.value
+        self.assertEqual(hashmap.hashmap_to_dict(), tmp)
+        i = iter(hashmap)
+        self.assertEqual(next(i).value, 1)
 
     # Add property-based tests for from_list and to_list, all monoid properties (Associativity, Identity element)
     @given(x=st.lists(st.integers()), y=st.lists(st.integers()), z=st.lists(st.integers()))
