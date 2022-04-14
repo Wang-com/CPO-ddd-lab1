@@ -116,10 +116,10 @@ class TestHashmapMethods(unittest.TestCase):
         x = {1, 2, 3, 4}
         hashmap = HashMap()
         hashmap.hashmap_from_list(x)
-        tmp = {}
+        temp = {}
         for e in hashmap:
-            tmp[e.key] = e.value
-        self.assertEqual(hashmap.hashmap_to_dict(), tmp)
+            temp[e.key] = e.value
+        self.assertEqual(hashmap.hashmap_to_dict(), temp)
         i = iter(hashmap)
         self.assertEqual(next(i).value, 1)
 

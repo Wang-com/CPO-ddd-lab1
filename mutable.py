@@ -171,7 +171,7 @@ class HashMap(object):
 
     # 9.iteration
     def __iter__(self):
-        list = []
+        iter_list = []
         for key in self.keyList:
-            list.append(Node(key, self.get(key)))
-        return iter(list)
+            iter_list.append(Node(key, self.get(key)))
+        return iter(iter_list)
