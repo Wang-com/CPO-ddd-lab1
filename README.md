@@ -17,6 +17,7 @@ CPO lab1
     Wang Qihang Completed the mutable.py
     Wang Zehao Completed the test_mutable.py  
 ## descriptions of module
+```
     class Node(object):  
         def __init__(self, key=None, value=None, next=None):  
     class HashMap(object):  
@@ -48,27 +49,27 @@ CPO lab1
          # mempty and mconcat  
          def mempty(self):  
          def mconcat(self, a, b):   
-         
+```         
 ## Changelog   
    *  4/14/2022
         Wang Qihang upload mutable.py
    *  4/14/2022
         Wang Zehao upload test_mutable.py  
 ## Design notes  
-    ### Implementation restrictions
-        The length of the hash table is fixed  
-    ### Advantages and disadvantages of unittest  
-        * Advantages：
-            Support automated testing
-            Secondary development is convenient
-            Organize test cases together by class
-        * Disadvantages：
-            Must be written in TestCase subclass
-            Must write test method
-            Difficult to expand
-    ### Advantages and disadvantages of PBT tests
-        * Advantages：
-            Check with automatically generated input data to ensure enough test cases
-            Allows developers to increase test coverage and effectively save time
-        * Disadvantages：
-            Not covering all examples
+### Implementation restrictions
+    The length of the hash table is fixed  
+### Advantages and disadvantages of unittest  
+    **Advantages**  
+        Support automated testing
+        Secondary development is convenient
+        Organize test cases together by class
+    **Disadvantages**  
+        Must be written in TestCase subclass
+        Must write test method
+        Difficult to expand
+### Advantages and disadvantages of PBT tests
+    **Advantages**  
+        Check with automatically generated input data to ensure enough test cases
+        Allows developers to increase test coverage and effectively save time
+   **Disadvantages**  
+        Not covering all examples
