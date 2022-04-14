@@ -55,6 +55,8 @@ CPO lab1
         Wang Qihang upload mutable.py  
    **4/14/2022**   
         Wang Zehao upload test_mutable.py  
+## Test result  
+    ![image](https://github.com/Wang-com/CPO-ddd-lab1/blob/master/test_result_mutable.png)
 ## Design notes  
 ### Implementation restrictions
     The length of the hash table is fixed  
